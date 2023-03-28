@@ -9,11 +9,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class JdbcMemberrepository implements MemberRepository{
+public class JdbcMembeRepository implements MemberRepository{
 
     private final DataSource dataSource;
 
-    public JdbcMemberrepository(DataSource dataSource) {
+    public JdbcMembeRepository(DataSource dataSource) {
         this.dataSource = dataSource;
     }
 
